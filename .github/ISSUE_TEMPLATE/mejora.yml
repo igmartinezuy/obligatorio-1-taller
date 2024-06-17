@@ -25,7 +25,7 @@ body:
         - "Mejora de Usabilidad"
         - "Mejora de Seguridad"
         - "Refactorización de Código"
-      default: "Optimización de Rendimiento"
+      default: 1
     validations:
       required: true
 
