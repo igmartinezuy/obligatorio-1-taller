@@ -1,16 +1,18 @@
 # Obligatorio 2 Taller de Programación
 
-Integrantes:
-
-- Esteban Moroy
+**Integrantes:** 
+- Esteban Moroy - Nro. 338885
 - Bruno Riera
 - Ignacio Martínez
 
-Problema Elegido: Nro. 28
+**Grupo: N1B**
+**Problema Elegido: Nro. 28**
 
 [Link al repositorio](https://github.com/estebanmoroy/obligatorio-1-taller)
 
 ### Cosas que faltan
+
+- [ ] Presentación PowerPoint
 
 - [ ] Sección ¿Qué es GitHub?
 - [ ] Sección ¿Qué es un GitHub Issue? ¿Para que sirven?
@@ -20,9 +22,21 @@ Problema Elegido: Nro. 28
 - [ ] Template para Bugs
 - [ ] Generar 2 reportes para cada tipo de template
 
-## Contenido
+## Tabla de Contenido
 
-Se genera a lo último
+- [Obligatorio 2 Taller de Programación](#obligatorio-2-taller-de-programación)
+    - [Cosas que faltan](#cosas-que-faltan)
+  - [Tabla de Contenido](#tabla-de-contenido)
+  - [Presentación](#presentación)
+    - [Presentación del problema](#presentación-del-problema)
+    - [¿Qué es GitHub?](#qué-es-github)
+    - [¿Qué es un GitHub Issue? ¿Para que sirven?](#qué-es-un-github-issue-para-que-sirven)
+  - [Generar un repositorio de git local y subir a GitHub](#generar-un-repositorio-de-git-local-y-subir-a-github)
+    - [Crear un repositorio en GitHub](#crear-un-repositorio-en-github)
+    - [Opcional - Configurar clave SSH](#opcional---configurar-clave-ssh)
+  - [Crear un template de GitHub Issue en formato MarkDown (.md)](#crear-un-template-de-github-issue-en-formato-markdown-md)
+  - [Crear un template de GitHub Issue en formato Yaml (.yml)](#crear-un-template-de-github-issue-en-formato-yaml-yml)
+  - [Fuentes](#fuentes)
 
 ## Presentación
 
@@ -83,7 +97,7 @@ git commit -m "Primer Commit"
 
 ![Captura 3](capturas/3.png)
 
-### 5. Crear un repositorio en GitHub
+### Crear un repositorio en GitHub
 
 5.1 En la página principal de GitHub, una vez logueados, clickear en "New"
 ![](capturas/github-1/1.jpeg)
@@ -109,7 +123,7 @@ git commit -m "Primer Commit"
 git remote add origin
 ```
 
-### 6. Opcional - Configurar clave SSH
+### Opcional - Configurar clave SSH
 
 En caso de que no se tenga configurada una clave de autenticación remota SSH, se muestran los pasos para configurar una.
 Se realizó siguiendo instructivo publicado en GitHub:
