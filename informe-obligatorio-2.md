@@ -305,6 +305,30 @@ git push origin master
 Ahora el formulario cuenta con varios campos de texto para cada sección solicitada
 ![](capturas/issues-yaml/6.jpeg)
 
+Buenas prácticas
+
+Es fundamental seguir algunas buenas prácticas que ayuden a mantener la claridad, la coherencia y la utilidad de la información registrada.
+
+Estandarización de Títulos: Utiliza títulos claros y descriptivos que indiquen el tipo de reporte y resuman brevemente el problema, mejora o solicitud. Por ejemplo, "[DOCUMENTACIÓN] - Mejorar página de inicio".
+
+Uso de Etiquetas (Labels): Etiqueta cada issue con categorías relevantes como "documentación", "mejora", "feature request" o "bug". Esto facilita la clasificación y el filtrado de los reportes.
+
+Descripciones Detalladas: Proporciona una descripción clara y concisa del problema o la mejora solicitada. Incluye detalles específicos, como pasos para reproducir un bug o sugerencias concretas para mejorar la documentación.
+
+Contexto y Justificación: Explica el contexto detrás del problema o la mejora propuesta. Esto puede incluir cómo afecta al usuario final, por qué es importante resolverlo y cualquier referencia relevante.
+
+Pasos Reproducibles: Para bugs, proporciona pasos detallados para reproducir el problema. Esto ayuda a los desarrolladores a identificar y corregir el bug de manera eficiente.
+
+Priorización y Impacto: Usa campos para especificar la prioridad del issue y su impacto en el proyecto. Por ejemplo, usa un campo de input para la prioridad con validaciones para números del 1 al 10.
+
+Alternativas Consideradas: En solicitudes de nuevas funcionalidades, discute alternativas que se hayan considerado y por qué se eligió la opción propuesta.
+
+Actualización y Seguimiento: Mantén actualizados los estados de los issues (abiertos, cerrados, en progreso) y proporciona comentarios regularmente. Esto mantiene a todos los interesados informados sobre el progreso y las decisiones tomadas.
+
+Revisión y Aprobación: Utiliza flujos de trabajo de revisión y aprobación si es necesario para asegurar que los cambios propuestos cumplan con los estándares del proyecto antes de la implementación.
+
+Documentación Completa: Documenta adecuadamente los cambios implementados, ya sea en la resolución de bugs, mejoras o nuevas funcionalidades. Esto facilita futuras referencias y auditorías.
+
 ## Fuentes
 
 [YouTube - Github Issue Templates: A Look at the New Issue Templates](https://www.youtube.com/watch?v=o3E3LwzhLcc)
