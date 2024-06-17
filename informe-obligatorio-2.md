@@ -30,7 +30,8 @@
   - [Presentación](#presentación)
     - [Presentación del problema](#presentación-del-problema)
     - [¿Qué es GitHub?](#qué-es-github)
-    - [¿Qué es un GitHub Issue? ¿Para que sirven?](#qué-es-un-github-issue-para-que-sirven)
+    - [¿Qué es GitHub Issues?](#qué-es-github-issues)
+    - [¿Para qué sirven los GitHub Issues?](#para-qué-sirven-los-github-issues)
   - [Generar un repositorio de git local y subir a GitHub](#generar-un-repositorio-de-git-local-y-subir-a-github)
     - [Crear un repositorio en GitHub](#crear-un-repositorio-en-github)
     - [Opcional - Configurar clave SSH](#opcional---configurar-clave-ssh)
@@ -60,8 +61,29 @@ como ejemplificar con al menos 2 reportes cada categoría. Para el código, pued
 servirse de su entrega del Obligatorio 1, a la cual puede realizarle modificaciones.
 
 ### ¿Qué es GitHub?
+GitHub es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git. GitHub permite a los desarrolladores trabajar en proyectos en equipo, compartir código, rastrear cambios y colaborar en el desarrollo de software.
 
-### ¿Qué es un GitHub Issue? ¿Para que sirven?
+### ¿Qué es GitHub Issues?
+
+GitHub Issues es una herramienta dentro de un repositorio de GitHub,  consiste en un registro para discutir cualquier aspecto del proyecto. Cada issue tiene su propio hilo de discusión, donde los colaboradores pueden comentar, adjuntar archivos y linkear código relacionado. Los issues pueden incluir:
+
+- Bugs: Reportes de errores o problemas en el código.
+- Tareas: Tareas que necesitan completarse.
+- Mejoras: Solicitudes de nuevas características o mejoras a las existentes.
+- Preguntas: Preguntas o discusiones sobre el proyecto.
+
+### ¿Para qué sirven los GitHub Issues?
+Seguimiento de Errores (Bugs): Permiten a los usuarios y desarrolladores reportar errores que encuentran en el software, describirlos en detalle y proporcionar pasos para reproducirlos. Esto ayuda al equipo de desarrollo a identificar y solucionar problemas.
+
+Planificación de Características: Ayudan a organizar y priorizar nuevas características o mejoras. Los colaboradores pueden discutir cómo implementar una nueva característica, sugerir cambios y asignar tareas específicas a los miembros del equipo.
+
+Gestión de Proyectos: Facilitan la gestión de proyectos al permitir que las tareas se dividan en issues individuales, que luego pueden ser asignados a diferentes colaboradores. Esto proporciona una visión clara del progreso y lo que aún queda por hacer.
+
+Discusión y Colaboración: Fomentan la discusión y colaboración entre los miembros del equipo. Los issues permiten que todos los involucrados en el proyecto contribuyan con ideas, revisen el trabajo de otros y propongan soluciones.
+
+Documentación de Decisiones: Actúan como un registro de las decisiones tomadas durante el desarrollo del proyecto. Esto es útil para referirse en el futuro y entender por qué se tomaron ciertas decisiones.
+
+Automatización: Pueden integrarse con otras herramientas y servicios de GitHub, como GitHub Actions, para automatizar flujos de trabajo. Por ejemplo, un issue puede cerrarse automáticamente cuando se fusiona un pull request que soluciona el problema descrito en el issue.
 
 ## Generar un repositorio de git local y subir a GitHub
 
