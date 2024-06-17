@@ -6,22 +6,23 @@
 - Ignacio Martínez
 
 **Grupo: N1B**
+
 **Problema Elegido: Nro. 28**
 
 [Link al repositorio](https://github.com/estebanmoroy/obligatorio-1-taller)
 
 ### Cosas que faltan
 
-- [ ] Presentación PowerPoint
+- [ ] Presentación PowerPoint - Todos
 
 - [X] Sección ¿Qué es GitHub?
 - [X] Sección ¿Qué es un GitHub Issue? ¿Para que sirven?
 
-- [ ] Template para Documentación
+- [ ] Template para Documentación - Esteban
 - [X] Template Feature Request
-- [ ] Template para Mejoras
-- [ ] Template para Bugs
-- [ ] Generar 2 reportes para cada tipo de template
+- [ ] Template para Mejoras - Bruno / Ignacio
+- [ ] Template para Bugs - Esteban
+- [ ] Generar 2 reportes para cada tipo de template - Bruno / Ignacio
 
 ## Tabla de Contenido
 
