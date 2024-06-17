@@ -1,5 +1,0 @@
-Fecha de ejecución: 05/19/24
-Cantidad de palabras totales consulta: 269
-Cantidad de palabras totales en diccionario: 175068
-El porcentaje de palabras del diccionario que cumplen con lo pedido es: 0.15%
-Usuario registrado: admin
