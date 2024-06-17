@@ -14,10 +14,11 @@
 
 - [ ] Presentación PowerPoint
 
-- [ ] Sección ¿Qué es GitHub?
-- [ ] Sección ¿Qué es un GitHub Issue? ¿Para que sirven?
+- [X] Sección ¿Qué es GitHub?
+- [X] Sección ¿Qué es un GitHub Issue? ¿Para que sirven?
 
 - [ ] Template para Documentación
+- [X] Template Feature Request
 - [ ] Template para Mejoras
 - [ ] Template para Bugs
 - [ ] Generar 2 reportes para cada tipo de template
