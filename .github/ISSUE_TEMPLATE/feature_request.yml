@@ -1,0 +1,78 @@
+name: Pedido de Nueva Funcionalidad
+description: Utilice este template para solicitar nuevas funcionalidades.
+title: "[FEATURE REQUEST] - Título descriptivo"
+labels: ["feature request", "enhancement"]
+body:
+  - type: textarea
+    id: related_problem
+    attributes:
+      label: "¿Está su solicitud de funcionalidad relacionada con un problema? Por favor, descríbalo."
+      description: "Una descripción clara y concisa de cuál es el problema. Ej. Me frustra mucho cuando [...]"
+      placeholder: "Describa el problema aquí..."
+  - type: textarea
+    id: problem_context
+    attributes:
+      label: "Contexto del Problema"
+      description: "Proporcione un contexto sobre el entorno o situación en la que surge el problema."
+      placeholder: "Proporcione el contexto del problema aquí..."
+  - type: input
+    id: problem_frequency
+    attributes:
+      label: "Frecuencia del Problema"
+      description: "Indique la frecuencia con la que se encuentra este problema."
+      placeholder: "Indique la frecuencia del problema aquí..."
+  - type: textarea
+    id: desired_solution
+    attributes:
+      label: "Describa la solución que le gustaría"
+      description: "Una descripción clara y concisa de lo que espera que ocurra."
+      placeholder: "Describa la solución aquí..."
+  - type: textarea
+    id: expected_benefits
+    attributes:
+      label: "Beneficios Esperados"
+      description: "Detalle los beneficios específicos que se obtendrán con la implementación de la solución."
+      placeholder: "Describa los beneficios esperados aquí..."
+  - type: textarea
+    id: user_impact
+    attributes:
+      label: "Impacto en Usuarios"
+      description: "Explique cómo esta solución beneficiará a los diferentes tipos de usuarios."
+      placeholder: "Explique el impacto en los usuarios aquí..."
+  - type: textarea
+    id: considered_alternatives
+    attributes:
+      label: "Describa las alternativas que ha considerado"
+      description: "Una descripción clara y concisa de cualquier otra solución o funcionalidad alternativa que haya considerado."
+      placeholder: "Describa las alternativas consideradas aquí..."
+  - type: textarea
+    id: alternative_comparison
+    attributes:
+      label: "Comparación de Alternativas"
+      description: "Proporcione una comparación entre la solución propuesta y las alternativas consideradas."
+      placeholder: "Proporcione la comparación de alternativas aquí..."
+  - type: textarea
+    id: pros_cons
+    attributes:
+      label: "Pros y Contras"
+      description: "Liste los pros y contras de cada alternativa considerada."
+      placeholder: "Liste los pros y contras aquí..."
+  - type: textarea
+    id: technical_requirements
+    attributes:
+      label: "Requisitos Técnicos"
+      description: "Incluya cualquier requisito técnico necesario para implementar la funcionalidad."
+      placeholder: "Describa los requisitos técnicos aquí..."
+  - type: textarea
+    id: implications
+    attributes:
+      label: "Implicaciones"
+      description: "Describa cualquier implicación adicional, como dependencias o posibles desafíos en la implementación."
+      placeholder: "Describa las implicaciones aquí..."
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "Contexto adicional"
+      description: "Añada cualquier otro contexto o capturas de pantalla sobre la solicitud de funcionalidad aquí."
+      placeholder: "Añada cualquier contexto adicional aquí..."
+
