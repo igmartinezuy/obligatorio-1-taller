@@ -1,0 +1,75 @@
+name: Pedido de Mejoras
+description: Utiliza este template para solicitar mejoras a funcionalidades existentes.
+title: "[MEJORA] - Título descriptivo"
+labels:
+  - mejoras
+  - enhancement
+body:
+  - type: textarea
+    id: suggested_improvement
+    attributes:
+      label: "Descripción de la mejora"
+      description: "Describe claramente la mejora que deseas sugerir."
+      placeholder: "Escribe aquí la descripción detallada de la mejora."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: improvement_type
+    attributes:
+      label: "Tipo de mejora"
+      description: "Selecciona el tipo de mejora que estás proponiendo."
+      multiple: false
+      options:
+        - "Optimización de Rendimiento"
+        - "Mejora de Usabilidad"
+        - "Mejora de Seguridad"
+        - "Refactorización de Código"
+    default: "Optimización de Rendimiento"
+    validations:
+      required: true
+
+  - type: input
+    id: improvement_priority
+    attributes:
+      label: "Prioridad de la mejora"
+      description: "Indica la prioridad de la mejora en una escala del 1 al 10."
+      placeholder: "Escribe aquí la prioridad (ej. 8)"
+    validations:
+      required: true
+      pattern: "^([1-9]|10)$"
+      message: "Debe ser un número del 1 al 10."
+
+  - type: textarea
+    id: desired_implementation
+    attributes:
+      label: "Propuesta de implementación"
+      description: "Describe cómo sugieres implementar esta mejora."
+      placeholder: "Escribe aquí la propuesta de implementación detallada."
+    validations:
+      required: true
+
+  - type: textarea
+    id: user_impact
+    attributes:
+      label: "Impacto en Usuarios"
+      description: "Explica cómo esta mejora beneficiará a los usuarios finales."
+      placeholder: "Escribe aquí el impacto en los usuarios."
+    validations:
+      required: true
+
+  - type: textarea
+    id: technical_requirements
+    attributes:
+      label: "Requisitos Técnicos"
+      description: "Detalla los requisitos técnicos necesarios para implementar esta mejora."
+      placeholder: "Escribe aquí los requisitos técnicos."
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_comments
+    attributes:
+      label: "Comentarios Adicionales"
+      description: "Agrega cualquier comentario adicional relevante."
+      placeholder: "Escribe aquí comentarios adicionales."
