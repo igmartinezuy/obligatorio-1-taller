@@ -1,5 +1,0 @@
-admin:admin
-jperez:contraseña
-gbeder:intrepido_
-lrodriguez:elstreamer123
-amontes:pincha2009
